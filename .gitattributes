@@ -1,2 +1,24 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+# Ignore specific languages from GitHub language statistics
+
+# Mark C++ files as linguist-generated
+*.cpp linguist-generated=true
+*.hpp linguist-generated=true
+*.cc linguist-generated=true
+*.cxx linguist-generated=true
+*.hxx linguist-generated=true
+*.h   linguist-generated=true
+
+# Mark C files as linguist-generated
+*.c   linguist-generated=true
+
+# Mark ShaderLab and HLSL files as linguist-generated
+*.shader linguist-generated=true
+*.cginc  linguist-generated=true
+*.hlsl   linguist-generated=true
+*.glsl   linguist-generated=true
+
+# Mark GAP files as linguist-generated
+*.g     linguist-generated=true
+*.gap   linguist-generated=true
