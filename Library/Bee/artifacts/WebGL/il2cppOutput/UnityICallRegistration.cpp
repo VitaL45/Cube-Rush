@@ -210,6 +210,10 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_AudioSource_PlayHelper();
 		Register_UnityEngine_AudioSource_PlayHelper();
 
+		//System.Void UnityEngine.AudioSource::set_mute(System.Boolean)
+		void Register_UnityEngine_AudioSource_set_mute();
+		Register_UnityEngine_AudioSource_set_mute();
+
 	//End Registrations for type : UnityEngine.AudioSource
 
 	//Start Registrations for type : UnityEngine.Behaviour
@@ -2357,10 +2361,6 @@ void RegisterAllStrippedInternalCalls()
 		//System.Int32 UnityEngine.SceneManagement.Scene::GetBuildIndexInternal(System.Int32)
 		void Register_UnityEngine_SceneManagement_Scene_GetBuildIndexInternal();
 		Register_UnityEngine_SceneManagement_Scene_GetBuildIndexInternal();
-
-		//System.String UnityEngine.SceneManagement.Scene::GetNameInternal(System.Int32)
-		void Register_UnityEngine_SceneManagement_Scene_GetNameInternal();
-		Register_UnityEngine_SceneManagement_Scene_GetNameInternal();
 
 	//End Registrations for type : UnityEngine.SceneManagement.Scene
 
